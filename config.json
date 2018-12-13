@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Ranjit Gupta, Cristian Mejia, Yuya Kajikawa"
+  },
+  "text": {
+    "more": "",
+    "intro": "Supportive figure for the article:\n\"Insights on formation of emerging business ecosystems from deals activities of global electric vehicles hub firms\" (Under review) ",
+    "title": "Deal network of Electric Vehicles"
+  },
+  "legend": {
+    "edgeLabel": "Deals",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Companies"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 5,
+      "minEdgeSize": 2,
+      "minNodeSize": 1,
+      "maxNodeSize": 5
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
